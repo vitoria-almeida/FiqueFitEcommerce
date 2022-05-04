@@ -1,0 +1,24 @@
+{
+    "products": [ 
+        {
+            "id": "1",
+            "name": "Top Cinza Transversal",
+            "price": 35,
+            "parcelamento": [3, 11.70],
+            "color": "Cinza",
+            "image": "/imgs/img1.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-12-21"
+        },
+        {
+            "id": "2",
+            "name": "Top Bege",
+            "price": 42,
+            "parcelamento": [3, 14],
+            "color": "Bege",
+            "image": "/imgs/img2.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-09-21"
+        }
+    ]
+}
