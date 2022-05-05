@@ -19,6 +19,106 @@
             "image": "/imgs/img2.jpg",
             "size": ["P", "M", "G"],
             "date": "2021-09-21"
+        },
+        {
+            "id": "3",
+            "name": "Legging Cinza",
+            "price": 90,
+            "parcelamento": [3, 30],
+            "color": "Cinza",
+            "image": "/imgs/img3.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-09-20"
+        },
+        {
+            "id": "4",
+            "name": "Top Bege Manga Longa",
+            "price": 55,
+            "parcelamento": [3, 18.33],
+            "color": "Bege",
+            "image": "/imgs/img4.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-11-21"
+        },
+        {
+            "id": "5",
+            "name": "Top Preto Manga Longa",
+            "price": 55,
+            "parcelamento": [3, 18.33],
+            "color": "Preto",
+            "image": "/imgs/img5.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-11-21"
+        },
+        {
+            "id": "6",
+            "name": "Top Branco com Abertura nas Costas",
+            "price": 45,
+            "parcelamento": [3, 15],
+            "color": "Branco",
+            "image": "/imgs/img6.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-10-21"
+        },
+        {
+            "id": "7",
+            "name": "Legging Branco",
+            "price": 95,
+            "parcelamento": [3, 30],
+            "color": "Branco",
+            "image": "/imgs/img7.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-10-21"
+        },
+        {
+            "id": "8",
+            "name": "Top Preto",
+            "price": 30,
+            "parcelamento": [3, 10],
+            "color": "Preto",
+            "image": "/imgs/img8.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-02-21"
+        },
+        {
+            "id": "9",
+            "name": "Top Rosa Pastel",
+            "price": 30,
+            "parcelamento": [3, 10],
+            "color": "Rosa",
+            "image": "/imgs/img9.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-02-22"
+        },
+        {
+            "id": "10",
+            "name": "Camisa Manga Longa Preta",
+            "price": 60,
+            "parcelamento": [3, 20],
+            "color": "Preto",
+            "image": "/imgs/img10.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-05-21"
+        },
+        {
+            "id": "11",
+            "name": "Top Branco",
+            "price": 30,
+            "parcelamento": [3, 10],
+            "color": "Branco",
+            "image": "/imgs/img11.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-02-23"
+        },
+        {
+            "id": "12",
+            "name": "Conjunto Lilás",
+            "price": 115,
+            "parcelamento": [3, 38.33],
+            "color": "Lilás",
+            "image": "/imgs/img12.jpg",
+            "size": ["P", "M", "G"],
+            "date": "2021-02-25"
         }
     ]
 }
