@@ -3,15 +3,15 @@ fetch(`http://localhost:5000/products`)
         return res.json()  
     })
     .then(data => {
-        let data1 = '';
+        let getData = '';
         data.map((item) => {
-            data1+= `
+            getData+= `
                 <h1>${item.name}</h1>
                 <span id="span">${item.price}</span>
             `
         })
 
-        document.getElementById('main').innerHTML = data1
+        // document.getElementById('main').innerHTML = getData
 
     })
     .catch(err => {

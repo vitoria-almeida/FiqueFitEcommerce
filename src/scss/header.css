@@ -1,0 +1,60 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header #headerContent {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #headerContent div:nth-child(1) #brandLogo {
+  width: 120px;
+}
+
+header #headerContent div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #headerContent div:nth-child(2) #bagIcon {
+  width: 30px;
+}
+
+header #headerContent div:nth-child(2) #divCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  right: 10px;
+}
+
+header #headerContent div:nth-child(2) #divCircle #circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: blue;
+}
+/*# sourceMappingURL=header.css.map */

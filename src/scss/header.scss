@@ -1,0 +1,49 @@
+@import './variables';
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-bottom: 1px solid $light_gray;
+
+    #headerContent {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div:nth-child(1) {
+            #brandLogo {
+                width: 120px;
+            }
+        }
+
+        div:nth-child(2) {
+            display: flex;
+        
+            #bagIcon {
+                width: 30px;
+            }
+
+            #divCircle {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                position: relative;
+                right: 10px;
+
+                #circle {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;                    
+                    background-color: blue;            
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
