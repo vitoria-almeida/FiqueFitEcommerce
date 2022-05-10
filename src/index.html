@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="web icon" href="./imgs/logoWeb.png"/>
-    <link rel="stylesheet" href="scss/global.css"/>
-    <link rel="stylesheet" href="scss/header.css"/>
+    <link rel="stylesheet" href="./scss/global.css"/>
+    <link rel="stylesheet" href="./scss/header.css"/>
+    <link rel="stylesheet" href="./scss/form.css"/>
+    <link rel="stylesheet" href="./scss/main.css"/>
+    <link rel="stylesheet" href="./scss/button.css"/>
+    <link rel="stylesheet" href="scss/footer.css"/>
     <title>FiqueFit</title>
 </head>
 <body> 
     <container id="main">
         <header>
             <div id="headerContent">
-                <div><img src="./imgs/logo.png" alt="Brand Logo" id="brandLogo"/></div>
+                <div>
+                    <img src="./imgs/logo.png" alt="Brand Logo" id="brandLogo"/>
+                </div>
                 <div>
                     <img src="./imgs/bag.png" alt="Shopping Bag Icon" id="bagIcon"/>
                     <div id="divCircle">
@@ -22,8 +31,33 @@
                 </div>
             </div>
         </header>
+
+        <form action="">
+            <select name="order" id="order" placeholder="oi">
+                <option hidden>Ordenar por:</option>
+                <option value="recent" id="recent">Mais recentes</option>
+                <option value="biggestPrice">Maior preço</option>
+                <option value="lowestPrice">Menor preço</option>
+            </select>
+        </form>
+
+        <main>
+            <div id="asideContent">
+                <h1>oi</h1>
+                <h1>asideee</h1>
+            </div>
+
+            <div id="centerContent"></div>
+        </main>
+
+        <div id="loadButton">
+            <div></div>
+            <div><button>CARREGAR MAIS</button></div>
+        </div>
+
+        <footer><p>github.com/vitoria-almeida</p></footer>
     </container>
    
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

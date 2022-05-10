@@ -55,6 +55,6 @@ header #headerContent div:nth-child(2) #divCircle #circle {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: #d372f1;
 }
 /*# sourceMappingURL=header.css.map */

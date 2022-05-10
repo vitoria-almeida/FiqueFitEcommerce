@@ -1,0 +1,12 @@
+form {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 1em;
+
+    select {
+        font-size: 14px;
+        padding: 5px;
+        cursor: pointer; 
+    }
+}

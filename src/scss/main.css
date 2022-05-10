@@ -1,0 +1,93 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-top: 1em;
+}
+
+main #asideContent {
+  width: 20%;
+}
+
+main #centerContent {
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, auto))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+}
+
+main #centerContent #productCard {
+  width: 200px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.3em;
+}
+
+main #centerContent #productCard div {
+  width: 200px;
+  height: 250px;
+}
+
+main #centerContent #productCard div img {
+  width: 200px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #centerContent #productCard h3 {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+main #centerContent #productCard p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main #centerContent #productCard span {
+  font-size: 12px;
+}
+
+main #centerContent #productCard button {
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  height: 2.5em;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 685px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #asideContent,
+  main #centerContent {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

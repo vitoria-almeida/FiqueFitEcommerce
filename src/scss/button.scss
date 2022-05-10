@@ -1,0 +1,45 @@
+@import './variables';
+
+#loadButton {
+    width: 90%;
+    display: flex;
+
+    div:first-child {
+        width: 20%;
+    }
+
+    div:last-child {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+
+        button {
+            background-color: $lilac;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 0.8em 2em;
+            margin: 3em 0;
+
+            &:hover {
+                background-color: #cd44f7;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 685px) {  
+    #loadButton {
+
+        div:first-child {
+            display: none;
+        }
+        
+        div:last-child {
+            width: 100%;
+        }
+    }
+}
+
+   

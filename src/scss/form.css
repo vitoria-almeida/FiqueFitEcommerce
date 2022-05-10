@@ -1,0 +1,17 @@
+form {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 1em;
+}
+
+form select {
+  font-size: 14px;
+  padding: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=form.css.map */
