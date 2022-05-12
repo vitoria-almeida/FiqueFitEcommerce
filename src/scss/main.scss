@@ -2,11 +2,25 @@
 
 main {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin-top: 1em;
 
     #asideContent {
         width: 20%;
+
+        h4 {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-size: 14px;
+            }      
+        }
     }
 
     #centerContent {
@@ -69,10 +83,32 @@ main {
     main {
         display: flex;
         flex-direction: column;
-
+  
         #asideContent,
         #centerContent {
             width: 100%;
+        }
+
+        #asideContent {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+    } 
+}
+
+@media only screen and (max-width: 400px) {
+    main{
+        #asideContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;          
+            
+            form {
+                width: 30%;
+                
+            }
         }
     } 
 }

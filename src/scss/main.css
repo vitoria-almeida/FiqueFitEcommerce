@@ -2,12 +2,31 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 80%;
   margin-top: 1em;
 }
 
 main #asideContent {
   width: 20%;
+}
+
+main #asideContent h4 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+main #asideContent form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #asideContent form label {
+  font-size: 14px;
 }
 
 main #centerContent {
@@ -88,6 +107,36 @@ main #centerContent #productCard button {
   main #asideContent,
   main #centerContent {
     width: 100%;
+  }
+  main #asideContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main #asideContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main #asideContent form {
+    width: 30%;
   }
 }
 /*# sourceMappingURL=main.css.map */
