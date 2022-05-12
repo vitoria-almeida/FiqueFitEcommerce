@@ -23,6 +23,18 @@ fetch(`http://localhost:5000/products`)
         console.log(err)
     })
 
+    //filter accordion
+    const card = document.getElementsByClassName('formAside')
+    const text = document.getElementsByClassName('options')
+
+    for (i = 0; i < card.length; i++) {
+        card[i].addEventListener('click', function(e){
+    
+            if(e.target.closest("text")) return;
+            this.classList.toggle("active");
+          
+        })
+    }
 
 
 

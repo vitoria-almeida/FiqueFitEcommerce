@@ -97,18 +97,49 @@ main {
     } 
 }
 
-@media only screen and (max-width: 400px) {
-    main{
+@media only screen and (max-width: 500px) {
+    main {
+        display: flex;     
+        align-items: center;
+        width: 70%;
+
         #asideContent {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;          
+            flex-direction: column;  
+            width: 100%;
             
             form {
-                width: 30%;
-                
+                width: 100%;    
             }
+
+            h4::before {
+                width: 20%;
+                content: '+';
+                font-size: 25px;
+                position: absolute;
+                right: 4px; 
+                transform: translateY(-30%);
+                cursor: pointer;
+            }
+
+            .formAside {
+                .filterContent {
+                    position: relative;
+                    height: 0;
+                    overflow: hidden;
+                    overflow-y: auto;
+                }
+            }
+
+            .formAside.active {
+                .filterContent {
+                    transition: 0.7s;
+                    height: 100%;
+                }
+                h4::before {
+                    content: "-";
+                }
+            }         
         }
     } 
 }
