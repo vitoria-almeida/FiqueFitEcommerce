@@ -1,15 +1,15 @@
-#loadButton {
+#Button {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#loadButton div:first-child {
+#Button div:first-child {
   width: 20%;
 }
 
-#loadButton div:last-child {
+#Button div:last-child {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +19,7 @@
           justify-content: center;
 }
 
-#loadButton div:last-child button {
+#Button div:last-child button {
   background-color: #d372f1;
   color: white;
   font-weight: bold;
@@ -29,15 +29,15 @@
   margin: 3em 0;
 }
 
-#loadButton div:last-child button:hover {
+#Button div:last-child button:hover {
   background-color: #cd44f7;
 }
 
 @media only screen and (max-width: 685px) {
-  #loadButton div:first-child {
+  #Button div:first-child {
     display: none;
   }
-  #loadButton div:last-child {
+  #Button div:last-child {
     width: 100%;
   }
 }

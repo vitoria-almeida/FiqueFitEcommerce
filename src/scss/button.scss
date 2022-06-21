@@ -1,6 +1,6 @@
 @import './variables';
 
-#loadButton {
+#Button {
     width: 90%;
     display: flex;
 
@@ -30,7 +30,7 @@
 }
 
 @media only screen and (max-width: 685px) {  
-    #loadButton {
+    #Button {
 
         div:first-child {
             display: none;
