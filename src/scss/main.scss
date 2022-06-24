@@ -30,18 +30,18 @@ main {
         justify-content: center;
         gap: 2em;
 
-        #cardProduct {
+        .cardProduct {
             display: none;
         }
 
-        #cardProduct:nth-child(1),
-        #cardProduct:nth-child(2),
-        #cardProduct:nth-child(3),
-        #cardProduct:nth-child(4),
-        #cardProduct:nth-child(5),
-        #cardProduct:nth-child(6),
-        #cardProduct:nth-child(7),
-        #cardProduct:nth-child(8) {
+        .cardProduct:nth-child(1),
+        .cardProduct:nth-child(2),
+        .cardProduct:nth-child(3),
+        .cardProduct:nth-child(4),
+        .cardProduct:nth-child(5),
+        .cardProduct:nth-child(6),
+        .cardProduct:nth-child(7),
+        .cardProduct:nth-child(8) {
             display: inline-block;
         }
         

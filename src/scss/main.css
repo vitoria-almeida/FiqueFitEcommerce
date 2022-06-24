@@ -41,18 +41,18 @@ main #centerContent {
   gap: 2em;
 }
 
-main #centerContent #cardProduct {
+main #centerContent .cardProduct {
   display: none;
 }
 
-main #centerContent #cardProduct:nth-child(1),
-main #centerContent #cardProduct:nth-child(2),
-main #centerContent #cardProduct:nth-child(3),
-main #centerContent #cardProduct:nth-child(4),
-main #centerContent #cardProduct:nth-child(5),
-main #centerContent #cardProduct:nth-child(6),
-main #centerContent #cardProduct:nth-child(7),
-main #centerContent #cardProduct:nth-child(8) {
+main #centerContent .cardProduct:nth-child(1),
+main #centerContent .cardProduct:nth-child(2),
+main #centerContent .cardProduct:nth-child(3),
+main #centerContent .cardProduct:nth-child(4),
+main #centerContent .cardProduct:nth-child(5),
+main #centerContent .cardProduct:nth-child(6),
+main #centerContent .cardProduct:nth-child(7),
+main #centerContent .cardProduct:nth-child(8) {
   display: inline-block;
 }
 

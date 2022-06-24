@@ -7,7 +7,7 @@
             "installment": [3, 18.33],
             "color": "Preto",
             "image": "./imgs/img5.jpg",
-            "size": ["P", "M", "G"],
+            "size": ["M", "G"],
             "date": "2021-11-21"
         },
         {
@@ -17,7 +17,7 @@
             "installment": [3, 14.00],
             "color": "Bege",
             "image": "./imgs/img2.jpg",
-            "size": ["P", "M", "G"],
+            "size": ["M", "G"],
             "date": "2021-09-21"
         },
         {
@@ -67,7 +67,7 @@
             "installment": [3, 30.00],
             "color": "Branco",
             "image": "./imgs/img7.jpg",
-            "size": ["P", "M", "G"],
+            "size": ["P"],
             "date": "2021-10-21"
         },
         {
@@ -97,7 +97,7 @@
             "installment": [3, 20.00],
             "color": "Preto",
             "image": "./imgs/img10.jpg",
-            "size": ["P", "M", "G"],
+            "size": ["M"],
             "date": "2021-05-21"
         },
         {
@@ -117,7 +117,7 @@
             "installment": [3, 38.33],
             "color": "Lilás",
             "image": "./imgs/img12.jpg",
-            "size": ["P", "M", "G"],
+            "size": ["G"],
             "date": "2021-02-25"
         }
     ]
